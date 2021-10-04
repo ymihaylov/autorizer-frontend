@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+}
+
+#logo-link {
+
+}
+
+#logo-link img {
+    margin-right: 8px;
+    width: 40px;
+}
+
+#main-container {
+    min-height: 100%;
+}
+
+#footer-container {
+    /*height: 40px;*/
+    /*margin-top: -40px;*/
+}
