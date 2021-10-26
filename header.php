@@ -9,22 +9,21 @@
                 <li><a href="#" class="nav-link px-2 link-secondary">Моят гараж</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Сервизи</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Оферти</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Напомняния</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Известия</a></li>
             </ul>
 
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                 <input type="search" class="form-control" placeholder="Търсене ..." aria-label="Search">
             </form>
 
-            <!--            <div class="text-end">-->
-            <!--                <button type="button" class="btn btn-outline-primary me-2">Влез</button>-->
-            <!--                <button type="button" class="btn btn-primary">Регистрация</button>-->
-            <!--            </div>-->
+            <!--<div class="text-end">-->
+            <!--<button type="button" class="btn btn-outline-primary me-2">Влез</button>-->
+            <!--<button type="button" class="btn btn-primary">Регистрация</button>-->
+            <!--</div>-->
 
             <div class="dropdown text-end">
                 <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="img/empty-profile-picture.png" alt="mdo" width="32" height="32">
-                    <!--                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">-->
                 </a>
                 <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
                     <li><a class="dropdown-item" href="#">Лични настройки</a></li>

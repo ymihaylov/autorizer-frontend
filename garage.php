@@ -1,25 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>autOrizer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
-</head>
+<?php include 'head.php' ?>
 <body>
 <?php require_once './header.php'?>
 
 <div id="main-container" class="container">
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img/example_car.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#" class="stretched-link text-reset text-decoration-none">Toyota RAV4</a></h5>
 
+                    <div class="car-details">
+                        <span class="badge bg-primary">B6</span>
+                        <span class="badge bg-secondary">2.0 L</span>
+                        <span class="badge bg-warning text-dark">Дизел</span>
+                        <span class="badge bg-light text-dark">140 к.с.</span>
+                        <span class="badge bg-light text-dark">2006</span>
+                        <span class="badge bg-light text-dark">Ръчна</span>
+                        <span class="badge bg-light text-dark">4x4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="footer-container" class="container">
-    <footer class="text-center">
-        © 2020 Copyright:
-        <a class="" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php require_once './foot.php' ?>
