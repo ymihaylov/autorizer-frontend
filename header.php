@@ -9,6 +9,7 @@
                 <li><a href="#" class="nav-link px-2 link-secondary">Моят гараж</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Сервизи</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Оферти</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Новини</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Известия</a></li>
             </ul>
 

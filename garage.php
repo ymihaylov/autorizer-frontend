@@ -3,10 +3,15 @@
 <?php require_once './header.php'?>
 
 <div id="main-container" class="container">
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
+    <div class="mb-3">
+        <a href="#" class="btn btn-outline-success btn-sm">Добави ново МПС</a>
+    </div>
+
+    <div class="row">
+        <?php for ($i = 0; $i < 4; $i++):?>
+        <div class="col mb-4 col-sm-4">
             <div class="card">
-                <img src="img/example_car.jpeg" class="card-img-top" alt="...">
+                <img src="img/example-cars/example-car-<?php echo $i ?>.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" class="stretched-link text-reset text-decoration-none">Toyota RAV4</a></h5>
 
@@ -22,6 +27,7 @@
                 </div>
             </div>
         </div>
+        <?php endfor; ?>
     </div>
 </div>
 
