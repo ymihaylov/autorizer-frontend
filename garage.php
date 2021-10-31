@@ -11,7 +11,14 @@
         <?php for ($i = 0; $i < 4; $i++):?>
         <div class="col mb-4 col-sm-4">
             <div class="card">
+<!--                --><?php //if ($i === 2): ?>
+<!--                    <img src="img/blank-car-image-2.png" />-->
+<!--                --><?php //else: ?>
+<!--                    <img src="img/example-cars/example-car---><?php //echo $i ?><!--.jpg" class="card-img-top" alt="...">-->
+<!--                --><?php //endif ?>
+
                 <img src="img/example-cars/example-car-<?php echo $i ?>.jpg" class="card-img-top" alt="...">
+
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" class="stretched-link text-reset text-decoration-none">Toyota RAV4</a></h5>
 
